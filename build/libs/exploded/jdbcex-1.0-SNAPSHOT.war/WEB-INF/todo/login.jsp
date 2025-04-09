@@ -6,7 +6,7 @@
 </head>
 <body>
     <c:if test="${param.result == 'error'}">
-
+        <p style="color: red;">⚠ 로그인 에러입니다!</p>
     </c:if>
 
     <form action="/login" method="post">

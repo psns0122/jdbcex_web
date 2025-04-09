@@ -29,7 +29,7 @@ public class TodoModifyController  extends HttpServlet {
             req.setAttribute("dto", todoDTO);
             req.getRequestDispatcher("/WEB-INF/todo/modify.jsp").forward(req, resp);
 
-        }catch(Exception e){
+        } catch(Exception e) {
             log.error(e.getMessage());
             throw new ServletException("modify get... error");
         }
@@ -55,9 +55,6 @@ public class TodoModifyController  extends HttpServlet {
             e.printStackTrace();
         }
         resp.sendRedirect("/todo/list");
-
     }
-
-
 }
 

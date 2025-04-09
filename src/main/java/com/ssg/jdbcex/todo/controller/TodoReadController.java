@@ -57,7 +57,7 @@ public class TodoReadController extends HttpServlet {
 
             req.getRequestDispatcher("/WEB-INF/todo/read.jsp").forward(req, resp);
 
-        }catch(Exception e){
+        } catch(Exception e) {
             log.error(e.getMessage());
             throw new ServletException("read error");
         }

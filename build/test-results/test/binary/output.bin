@@ -1,6 +1,6 @@
-¶16:59:05.421 [Test worker] INFO  com.ssg.service.TodoServiceTests - TodoDTO(tno=null, title=Sample Test Mapper Register todovo4, dueDate=2025-04-09, finished=false)
-¨16:59:05.476 [Test worker] INFO  com.ssg.jdbcex.todo.service.TodoService - TodoVO(tno=null, title=Sample Test Mapper Register todovo4, dueDate=2025-04-09, finished=false)
-b16:59:05.528 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-ê16:59:06.013 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6d4c273c
-g16:59:06.016 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-h16:59:06.116 [Test worker] INFO  com.ssg.service.TodoServiceTests - ==================================
+¶10:15:18.312 [Test worker] INFO  com.ssg.service.TodoServiceTests - TodoDTO(tno=null, title=Sample Test Mapper Register todovo4, dueDate=2025-04-09, finished=false)
+¨10:15:18.338 [Test worker] INFO  com.ssg.jdbcex.todo.service.TodoService - TodoVO(tno=null, title=Sample Test Mapper Register todovo4, dueDate=2025-04-09, finished=false)
+b10:15:18.360 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ê10:15:18.591 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6dcd5639
+g10:15:18.592 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+h10:15:18.615 [Test worker] INFO  com.ssg.service.TodoServiceTests - ==================================

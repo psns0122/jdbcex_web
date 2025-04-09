@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ssg.dao.ConnectTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-04-09T02:32:24" hostname="NANA" time="0.701">
+  <properties/>
+  <testcase name="test3()" classname="com.ssg.dao.ConnectTests" time="0.701"/>
+  <system-out><![CDATA[11:32:24.607 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:32:24.909 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@43effd89
+11:32:24.910 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+HikariProxyConnection@1893987183 wrapping com.mysql.cj.jdbc.ConnectionImpl@43effd89
+11:32:24.923 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+11:32:24.926 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

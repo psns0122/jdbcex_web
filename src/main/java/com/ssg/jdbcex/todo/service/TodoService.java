@@ -54,7 +54,6 @@ public enum TodoService {
     }
 
     public void remove(Long tno)throws Exception {
-
         log.info("tno: " + tno);
         dao.deleteOne(tno);
     }

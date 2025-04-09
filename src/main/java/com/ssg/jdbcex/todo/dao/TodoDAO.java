@@ -26,7 +26,7 @@ public class TodoDAO {
             resultSet.next();
 
             now = resultSet.getString(1);
-        }catch(Exception e){
+        } catch(Exception e){
             e.printStackTrace();
         }
         return now;

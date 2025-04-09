@@ -1,6 +1,6 @@
-¶10:15:18.312 [Test worker] INFO  com.ssg.service.TodoServiceTests - TodoDTO(tno=null, title=Sample Test Mapper Register todovo4, dueDate=2025-04-09, finished=false)
-¨10:15:18.338 [Test worker] INFO  com.ssg.jdbcex.todo.service.TodoService - TodoVO(tno=null, title=Sample Test Mapper Register todovo4, dueDate=2025-04-09, finished=false)
-b10:15:18.360 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-ê10:15:18.591 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6dcd5639
-g10:15:18.592 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-h10:15:18.615 [Test worker] INFO  com.ssg.service.TodoServiceTests - ==================================
+b11:32:24.607 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ê11:32:24.909 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@43effd89
+g11:32:24.910 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+UHikariProxyConnection@1893987183 wrapping com.mysql.cj.jdbc.ConnectionImpl@43effd89
+l11:32:24.923 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+j11:32:24.926 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

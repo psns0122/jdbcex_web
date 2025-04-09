@@ -8,13 +8,13 @@ public enum MapperUtil {
 
     private ModelMapper modelMapper;
 
+    // [17] DTO와 VO 간의 변환을 위한 ModelMapper 설정
     MapperUtil() {
         this.modelMapper = new ModelMapper();
         this.modelMapper.getConfiguration()
                 .setFieldMatchingEnabled(true)
                 .setFieldAccessLevel(org.modelmapper.config.Configuration.AccessLevel.PRIVATE)
                 .setMatchingStrategy(MatchingStrategies.LOOSE);
-
     }
 
     public ModelMapper get() {

@@ -18,7 +18,7 @@ public enum ConnectionUtil {
 
         // [3] MySQL 드라이버, URL, 계정 설정
         config.setDriverClassName("com.mysql.cj.jdbc.Driver");
-        config.setJdbcUrl("jdbc:mysql://127.0.0.1:3306/ssgdb?serverTimezone=UTC");
+        config.setJdbcUrl("jdbc:mysql://127.0.0.1:3306/ssgdb?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8");
         config.setUsername("root");
         config.setPassword("admindb");
 

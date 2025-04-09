@@ -21,7 +21,7 @@ public class ConnectTests {
 
      @Test
     public void test2() throws SQLException , ClassNotFoundException {
-        String url = "jdbc:mysql://localhost:3306/ssgdb?serverTimezone=UTC";
+        String url = "jdbc:mysql://localhost:3306/ssgdb?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8";
         String username = "root";
         String password = "admindb";
 
@@ -36,7 +36,7 @@ public class ConnectTests {
      public void test3() throws SQLException , ClassNotFoundException {
          HikariConfig config = new HikariConfig();
          config.setDriverClassName("com.mysql.cj.jdbc.Driver");
-         config.setJdbcUrl("jdbc:mysql://localhost:3306/ssgdb?serverTimezone=UTC");
+         config.setJdbcUrl("jdbc:mysql://localhost:3306/ssgdb?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8");
          config.setUsername("root");
          config.setPassword("admindb");
          config.addDataSourceProperty("cachePrepStmts", "true");

@@ -38,7 +38,6 @@ public class TodoModifyController  extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
         String finishedStr = req.getParameter("finished");
 
         TodoDTO todoDTO = TodoDTO.builder()

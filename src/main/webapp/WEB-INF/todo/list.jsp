@@ -3,10 +3,15 @@
 
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>Todo List</title>
 </head>
 <body>
 <h1>Todo List</h1>
+
+<h2>${loginInfo}</h2>
+<h3>${loginInfo.mname}</h3>
+<h3>${appName}</h3>
 
 <ul>
     <c:forEach items="${dtoList}" var="dto">
@@ -18,6 +23,10 @@
         </li>
     </c:forEach>
 </ul>
+
+<form action="/logout" method="post">
+    <button>로그아웃</button>
+</form>
 
 
 </body>

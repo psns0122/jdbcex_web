@@ -19,6 +19,7 @@ import java.time.format.DateTimeFormatter;
 @Log4j2
 public class TodoRegisterController extends HttpServlet {
 
+    String a = "test";
     private TodoService todoService = TodoService.INSTANCE;
     private final DateTimeFormatter DATEFORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd");
 
